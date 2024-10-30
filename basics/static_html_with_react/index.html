@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>React using HTML</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> // for writing react code https://legacy.reactjs.org/docs/cdn-links.html
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>' // https://legacy.reactjs.org/docs/cdn-links.html
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>  // support in old version of browser from https://babeljs.io/docs/babel-standalone
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babe1">
+        <!-- react code -->
+        function HelloWorld(){
+            return <h1> HelloWorld </h1>
+        }
+        const {createRoot} = ReactDOM  // react object
+        const root = createRoot(document.getElementById('root'))
+        root.render(<HelloWorld/>)
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+react development server
+components
+events
+
+react -> java script library -> which make user interface
+
+package-lock.json --> used for version control
+package.json --> used for project configuration. and has important of  project
+public has html and other necessary files which is shown publicly to the users.
+
+you can write any name for your wish
+
+important file in the src folder is index.js
+
+in src folder you can see index.css which is used to style the public/index.html file
+
+App.js file is used for 
+
+App.js and index.js are the two important files for the development
+
+reportwebVitals.js and setupTests.js are used for testing purpose
+
+components --> class
+           --> functional
+
+props -. properties --> transferring from one components to another components
