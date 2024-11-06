@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import Vechical from './components/Vechical';
 import reportWebVitals from './reportWebVitals';
+// import MultipleForm from './components/MultiFieldForm';
+import SimplefyForm from './components/SimplyfyMultiForm';
 // import Header from './components/Header';
 // import FavoriteColor from './components/FavoriteColor';
 // import CarClass from './components/Car_Class';
 // import List from './components/List';
-import Timer from './components/Timer2';
+// import Timer from './components/Timer2';
+// import MyForm from './components/MyForm';
 
 // const Car = new value.Car();
 // const Vechical = new value.Vechical();
@@ -17,7 +20,10 @@ root.render(
     {/* <Vechical/> */}
     {/* <FavoriteColor/> */}
     {/* <CarClass/> */}
-    <Timer/>
+    {/* <Timer/> */}
+    {/* <MyForm/> */}
+    {/* <MultipleForm/> */}
+    <SimplefyForm/>
     {/* <List/> */}
   </React.StrictMode>
 );
