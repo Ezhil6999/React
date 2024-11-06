@@ -5,7 +5,9 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Header from './components/Header';
 // import FavoriteColor from './components/FavoriteColor';
-import CarClass from './components/Car_Class';
+// import CarClass from './components/Car_Class';
+// import List from './components/List';
+import Timer from './components/Timer2';
 
 // const Car = new value.Car();
 // const Vechical = new value.Vechical();
@@ -14,7 +16,9 @@ root.render(
   <React.StrictMode>
     {/* <Vechical/> */}
     {/* <FavoriteColor/> */}
-    <CarClass/>
+    {/* <CarClass/> */}
+    <Timer/>
+    {/* <List/> */}
   </React.StrictMode>
 );
 
