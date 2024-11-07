@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 // import Header from './components/Header';
 // import FavoriteColor from './components/FavoriteColor';
 // import CarClass from './components/Car_Class';
-import Timer from './components/Timer';
+
 // const Car = new value.Car();
 // const Vechical = new value.Vechical();
 const root = ReactDOM.createRoot(document.getElementById('root'));
