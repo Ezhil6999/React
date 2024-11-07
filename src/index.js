@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import Vechical from './components/Vechical';
 import reportWebVitals from './reportWebVitals';
-
+// import Header from './components/Header';
+// import FavoriteColor from './components/FavoriteColor';
+// import CarClass from './components/Car_Class';
+import Timer from './components/Timer';
+// const Car = new value.Car();
+// const Vechical = new value.Vechical();
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Vechical/> */}
+    {/* <FavoriteColor/> */}
+    {/* <CarClass/> */}
+    <Timer/>
   </React.StrictMode>
 );
 
